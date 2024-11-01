@@ -1,0 +1,49 @@
+/* Styles */
+#sync-posts-form, #wp-sync-products-form {
+    background: #fff;
+    padding: 10px 15px 10px 15px;
+}
+
+#sync-posts-form li, #wp-sync-products-form li {
+    margin-bottom: 5px;
+}
+#sync-posts-form li:last-child, #wp-sync-products-form li:last-child {
+    margin-bottom: 0px;
+}
+#sync-posts-form li.success, #wp-sync-products-form li.success {
+    color: #3c763d;
+}
+#sync-posts-form li.warning, #wp-sync-products-form li.warning {
+    color: #8a6d3b;
+}
+#sync-posts-form li.danger, #wp-sync-products-form li.danger {
+    color: #a94442;
+}
+#sync-posts-form li.info, #wp-sync-products-form li.info {
+    color: #31708f;
+}
+
+.sync-posts-alert, .wp-sync-products-alert {
+    padding: 10px;
+    margin-bottom: 3px;
+}
+.sync-posts-alert.success, .wp-sync-products-alert.success {
+    background-color: #dff0d8;
+    color: #3c763d;
+    border: 1px solid #d6e9c6;
+}
+.sync-posts-alert.warning, .wp-sync-products-alert.warning {
+    background-color: #fcf8e3;
+    color: #8a6d3b;
+    border: 1px solid #faebcc;
+}
+.sync-posts-alert.danger, .wp-sync-products-alert.danger {
+    background-color: #f2dede;
+    color: #a94442;
+    border: 1px solid #ebccd1;
+}
+.sync-posts-alert.info, .wp-sync-products-alert.info {
+    background-color: #d9edf7;
+    color: #31708f;
+    border: 1px solid #bce8f1;
+}
